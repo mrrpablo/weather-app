@@ -107,3 +107,35 @@ body{
     margin-top: 10px;
     display: none;
 }
+
+@media (max-width: 500px){
+    .card{
+        width: 90%;
+       padding: 40px 20px;
+    }
+
+    .search{
+        flex-direction: column;
+    }
+
+    .search input{
+       padding: 10px 20px;
+    }
+
+    .search button{
+        margin-top: 20px;
+
+    }
+
+    .search button img{
+        width: 10px;
+    }
+
+    .details{
+        flex-direction: column;
+    }
+
+    .col{
+        margin-top: 20px;
+    }
+}
